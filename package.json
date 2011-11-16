@@ -1,0 +1,16 @@
+{
+  "author": "Morten Siebuhr <sbhr@sbhr.dk>",
+  "name": "spark",
+  "description": "ASCII sparklines",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/msiebuhr/node-spark.git"
+  },
+  "main": "spark.js",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

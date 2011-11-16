@@ -1,7 +1,7 @@
 {
   "author": "Morten Siebuhr <sbhr@sbhr.dk>",
-  "name": "spark",
-  "description": "ASCII sparklines",
+  "name": "textspark",
+  "description": "Text sparklines",
   "version": "0.0.1",
   "repository": {
     "type": "git",

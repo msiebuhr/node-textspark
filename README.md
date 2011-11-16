@@ -35,7 +35,6 @@ Returns:
 TODO
 ----
 
- * CLI binary, so it behaves like the original `spark`-tool.
  * Tests
 
 License

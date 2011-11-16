@@ -7,6 +7,10 @@
     "type": "git",
     "url": "git://github.com/msiebuhr/node-spark.git"
   },
+  "bin": {
+      "spark": "./bin/spark",
+      "textspark": "./bin/spark"
+  },
   "main": "spark.js",
   "engines": {
     "node": "*"

@@ -7,11 +7,11 @@ Node.js/JavaScript implementation of [@holman](https://github.com/holman)'s
 Usage
 -----
 
-   #!/usr/bin/env node
+    #!/usr/bin/env node
 
-   var spark = require('spark');
+    var spark = require('spark');
 
-   console.log(spark([1,2,3,4,5,6,7,3]))
+    console.log(spark([1,2,3,4,5,6,7,3]))
 
 Returns:
 

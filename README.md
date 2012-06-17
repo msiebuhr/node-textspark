@@ -23,22 +23,15 @@ Usage
 -----
 
     #!/usr/bin/env node
-
     var spark = require('textspark');
-
     console.log(spark([1,2,3,4,5,6,7,3]))
 
-Returns:
+Prints:
 
     ▁▂▂▃▅▆▆▂
-
-TODO
-----
-
- * CLI binary, so it behaves like the original `spark`-tool.
- * Tests
 
 License
 -------
 
-Three-clause BSD; see `LICENSE`.
+Three-clause BSD; see
+[LICENSE](https://github.com/msiebuhr/node-textspark/blob/master/LICENSE).

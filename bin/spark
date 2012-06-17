@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+// ex: filetype=javascript
+
+var spark = require('../spark');
+
+console.log(spark(process.argv.slice(2).map(function (num) {
+	return parseFloat(num, 10);
+})));

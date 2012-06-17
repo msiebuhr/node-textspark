@@ -7,6 +7,12 @@
     "type": "git",
     "url": "git://github.com/msiebuhr/node-textspark.git"
   },
+  "keywords": [
+      "cli",
+      "sparklines",
+      "ascii",
+      "spark"
+  ],
   "bin": {
       "spark": "./bin/spark",
       "textspark": "./bin/spark"
@@ -16,5 +22,6 @@
     "node": "*"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "license": "MIT"
 }

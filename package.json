@@ -2,7 +2,7 @@
   "author": "Morten Siebuhr <sbhr@sbhr.dk>",
   "name": "textspark",
   "description": "Text sparklines",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/msiebuhr/node-textspark.git"

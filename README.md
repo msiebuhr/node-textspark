@@ -28,7 +28,7 @@ Usage
 
 Prints:
 
-    ▁▂▂▃▅▆▆▂
+    ▁▂▃▄▅▆▇▃
 
 License
 -------

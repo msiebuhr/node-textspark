@@ -3,7 +3,7 @@
  */
 
 (function(root) {
-    var ticks = ['▁', '▂', '▃', '▅', '▆', '▇'];
+    var ticks = ['▁', '▂', '▃', '▄', '▅', '▆', '▇', '█'];
 
     var spark = function (ints) {
         var max = Math.max.apply(null, ints),

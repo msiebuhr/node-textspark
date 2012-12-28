@@ -3,6 +3,30 @@
 
 var spark = require('../spark');
 
-console.log(spark(process.argv.slice(2).map(function (num) {
-	return parseFloat(num, 10);
-})));
+// Argv or stdin?
+if (process.argv.length > 2) {
+    // Any '-h' in there?
+    if (process.argv.indexOf('-h') !== -1) {
+        console.log("Usage: " + process.argv[1] + " [-h] VALUE1 VALUE2 ... (or stdin)");
+        return 0;
+    }
+    return console.log(spark(process.argv.slice(2).map(function (num) {
+        return parseFloat(num, 10);
+    })));
+}
+
+var input = "";
+process.stdin.setEncoding('ascii');
+process.stdin.on('data', function (data) {
+    input = input + data;
+});
+process.stdin.on('end', function (data) {
+    if (data) {
+        input = input + data;
+    }
+
+    console.log(spark(input.split(/\s+/).map(function (num) {
+        return parseFloat(num, 10);
+    })));
+});
+process.stdin.resume();

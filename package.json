@@ -8,20 +8,23 @@
     "url": "git://github.com/msiebuhr/node-textspark.git"
   },
   "keywords": [
-      "cli",
-      "sparklines",
-      "ascii",
-      "spark"
+    "cli",
+    "sparklines",
+    "ascii",
+    "spark"
   ],
   "bin": {
-      "spark": "./bin/spark",
-      "textspark": "./bin/spark"
+    "spark": "./bin/spark",
+    "textspark": "./bin/spark"
   },
   "main": "spark.js",
   "engines": {
     "node": "*"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "~1.4.2",
+    "mocha": "~1.7.4"
+  },
   "license": "MIT"
 }

@@ -17,10 +17,10 @@
     "spark": "./bin/spark",
     "textspark": "./bin/spark"
   },
-  "main": "spark.js",
-  "engines": {
-    "node": "*"
+  "scripts": {
+    "test": "mocha -R spec"
   },
+  "main": "spark.js",
   "dependencies": {},
   "devDependencies": {
     "chai": "~1.4.2",
